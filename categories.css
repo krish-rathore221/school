@@ -1,0 +1,251 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    /* font-family: 'Inter', Arial, sans-serif; */
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+      position: sticky;
+      top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid hsl(214.3 31.8% 91.4%);
+}
+.navbar{
+    width: 89%;
+  
+    background-color: white;
+   
+    overflow: hidden;
+    height: 63px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.navigations{
+    display: flex;
+    align-items: center;
+
+}
+.navigations ul{
+    display: flex;
+}
+.navigations li{
+    list-style: none;
+   
+    padding: 0px 10px;
+}
+.navigations li a:hover{
+color: black;
+}
+.navigations li a{
+    text-decoration: none;
+    font-weight: 600;
+     color: rgba(101, 101, 101, 0.634);
+}
+.search{
+    font-size: 20px;
+    padding-left: 27px;
+    padding-right: 20px;
+    color: black;
+}
+#login{
+    padding: 12px 13px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 7px;
+    font-weight: 600;
+}
+#login:hover{
+    background-color: rgb(150, 149, 149);
+}
+#register{
+    padding: 12px 10px;
+    background-color: #2563eb;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-left: 8px;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+#register:hover{
+    background-color: rgb(52, 52, 131);
+}
+.logo{
+    display: flex;
+    
+}
+#js-logo{
+    background-color: rgb(255 107 157);
+    color: white;
+    /* padding-top: 4px; */
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    
+}
+#jaipur-schools{
+padding-left: 10px;
+font-weight: 600;
+font-size: 1.125rem; 
+    line-height: 1.75rem;
+}
+ion-icon{
+    height: 20px;
+    width: 20px;
+    color: black;
+}
+
+.banner {
+    height: 25vh;
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    background-color: rgb(254 243 199);
+    
+}
+.banner-content{
+    height: 20vh;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.school-container{
+    height: 38vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.grid-container{
+    width: 89%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.school-data{
+    border: 1px solid black;
+}
+
+
+
+
+
+
+.logo {
+    display: flex;
+
+}
+
+#js-logo {
+    background-color: rgb(255 107 157);
+    color: white;
+    /* padding-top: 4px; */
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 3px 6px;
+
+}
+
+#jaipur-schools {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.footer{
+    height: 38vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(63, 63, 63, 0.373);
+   
+}
+.footer-container{
+    width: 89%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.item{
+    padding-top: 20px;
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.item p{
+    color: hsl(215.4 16.3% 46.9%);
+    padding-top: 15px;
+}
+.item a{
+    text-decoration: none;
+    color: hsl(215.4 16.3% 46.9%);
+    padding-top: 15px;
+}
+
+.item a:hover{
+    color: black;
+}
+
+.copyright-section {
+    height: 10vh;
+    width: 100%;
+    border: 1px solid rgba(63, 63, 63, 0.373);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.copyrightdiv1 {
+    padding-left: 30px;
+}
+
+.copyrightdiv2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+    color: rgba(63, 63, 63, 0.373);
+}
+
+.copyrightdiv2 p {
+    margin-left: 10px;
+}
+
+.copyrightdiv2 p:hover {
+    color: black;
+
+}
